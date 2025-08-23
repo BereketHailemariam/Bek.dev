@@ -447,6 +447,8 @@ grid-template-columns: 1fr;
     height: 400px;
     overflow: hidden;
     transition: var(--transition);
+    color: #e5e7eb;
+    font-family: italic small-caps bold 16px/2 cursive;
 }
 .insta-grid > div img{
     height: 100%;
