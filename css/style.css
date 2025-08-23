@@ -497,10 +497,10 @@ grid-template-columns: 1fr;
 }
 
 .end_footer{
-    text-align: right;
+    text-align: center;
     padding: 0%;
-    justify-content: center;
-    font-size: medium;
+    justify-content: space-around;
+    font-size: small;
     margin: 0%;
     margin-bottom: 1.em;
 }
