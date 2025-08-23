@@ -496,6 +496,15 @@ grid-template-columns: 1fr;
     border-radius: 50%;
 }
 
+.end_footer{
+    text-align: right;
+    padding: 0%;
+    justify-content: center;
+    font-size: medium;
+    margin: 0%;
+    margin-bottom: 1.em;
+}
+
 
 /* Media Queries */
 
