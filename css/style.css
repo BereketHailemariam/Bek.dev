@@ -164,6 +164,7 @@ h1, h2 , h3 {
 }
 
 /* skill  */
+
 .container {
     max-width: 1200px;
     width: 100%;
@@ -286,20 +287,8 @@ footer {
     font-size: 0.9rem;
 }
 
-@media (max-width: 768px) {
-    .skills-grid {
-        grid-template-columns: 1fr;
-        padding: 25px;
-    }
-    
-    h1 {
-        font-size: 2.5rem;
-    }
-}
-
-
 /****  Education and Experiance section start***/
-.contain{
+.experience{
 width: 100%;
 padding: 35px 10%;
 }
@@ -374,14 +363,7 @@ border: 2px solid rgb(165, 76, 158);
     color: #666;
     font-size: 17px;
 }
-@media(max-width: 768px){
-    main.row{
-grid-template-columns: 1fr;
-    }
-    .row.col:nth-child(2){
-        margin-top: 30px;
-    }
-}
+
 /* portfolio */
 .portfolio-grid > div{
     transition: var(--transition);
@@ -590,3 +572,21 @@ grid-template-columns: 1fr;
     }
 }
 
+@media (max-width: 768px) {
+    .skills-grid {
+        grid-template-columns: 1fr;
+        padding: 25px;
+    }
+    
+    h1 {
+        font-size: 2.5rem;
+    }
+}
+@media(max-width: 768px){
+    .experience{
+grid-template-columns: 1fr;
+    }
+    .experience.col:nth-child(2){
+        margin-top: 30px;
+    }
+}
